@@ -47,6 +47,10 @@ Here is the final circuit with a battery sources mounted on top of the wrist cap
 ![](https://github.com/chrisshum/capacitive-glucometer/blob/main/Wikimages/glucometer%20v2.png)
 Eventually I'll be printing out my circuit on a small pcb and encapsulate everything in a silicone cast so that it is all in one professional package.
 
-Other next steps is to 
+Next steps is to 
+1. Finish putting the new circuit on Altium and design and print a PCB to put it on. 
+2. Convert my sine wave generator from a dedicated thread on the proccessor to utilizing the DMA as good practice to not use too many limited resources on a board. 
+3. use the Wifi module so I can share data anywhere in a home within range of the router rather than just the bluetooth range of the device.
+4. Possible migration to a more well documented board like a stm32. 
 
 
